@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "deholte",
-    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Documentando experiências",
     bio: "Olá, meu nome é Andrei e este é um blog construído para guardar alguns pensamentos e experiências que tenho vivido nessa longa jornada de desenvolvimento de aplicações.",
     email: "andreideholte@gmail.com",
