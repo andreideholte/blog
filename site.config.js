@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "deholte-blog",
+    name: "deholte",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Documentando experiências",
     bio: "Olá, meu nome é Andrei e este é um blog construído para guardar alguns pensamentos e experiências que tenho vivido nessa longa jornada de desenvolvimento de aplicações.",
@@ -12,13 +12,13 @@ const CONFIG = {
   },
   projects: [
     {
-      name: ``,
-      href: "",
+      name: `Deholte Blog`,
+      href: "https://deholte.com",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "deholte-blog",
+    title: "deholte",
     description: "Bem vindo!",
   },
 
