@@ -19,8 +19,8 @@ const ServiceCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillCodeSandboxCircle className="icon" />
-            <Emoji><div className="name">{CONFIG.projects[0].name}</div></Emoji>
+            <Emoji>{project.icon}</Emoji>
+            <div className="name">{project.name}</div>
           </a>
         ))}
       </StyledWrapper>

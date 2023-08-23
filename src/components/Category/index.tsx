@@ -3,6 +3,7 @@ import React from "react"
 import { COLOR_SET } from "./constants"
 import styled from "@emotion/styled"
 import { colors } from "src/styles"
+import { Emoji } from "../Emoji"
 
 export const getColorClassByName = (name: string): string => {
   try {
@@ -37,7 +38,7 @@ const Category: React.FC<Props> = ({ readOnly = false, children }) => {
         cursor: readOnly ? "default" : "pointer",
       }}
     >
-      {children}
+      <Emoji>{children}</Emoji>
     </StyledWrapper>
   )
 }

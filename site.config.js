@@ -12,19 +12,23 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `🤠 Martin Fowler`,
+      icon: '🤠',
+      name: `Martin Fowler`,
       href: "https://martinfowler.com/",
     },
     {
-      name: `/tw Thoughtworks`,
+      icon: '/tw',
+      name: `Thoughtworks`,
       href: "https://www.thoughtworks.com/pt-br/insights/blog",
     },
     {
-      name: `G Gartner`,
+      icon: 'G',
+      name: `Gartner`,
       href: "https://www.gartner.com.br/pt-br/tecnologia-da-informacao",
     },
     {
-      name: `🦝 Refactoring Guru`,
+      icon: '🦝',
+      name: `Refactoring Guru`,
       href: "https://refactoring.guru/pt-br/",
     },
   ],
