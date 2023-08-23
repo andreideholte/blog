@@ -10,7 +10,7 @@ const ProfileCard: React.FC<Props> = () => {
   return (
     <StyledWrapper>
       <div className="title">
-        <Emoji>💻</Emoji> Profile
+        <Emoji>💻</Emoji> Info
       </div>
       <div className="content">
         <div className="top">
@@ -19,7 +19,7 @@ const ProfileCard: React.FC<Props> = () => {
         <div className="mid">
           <div className="name">{CONFIG.profile.name}</div>
           <div className="role">{CONFIG.profile.role}</div>
-          <div className="text-sm mb-2">{CONFIG.profile.bio}</div>
+          <div className="bio text-sm mb-2">{CONFIG.profile.bio}</div>
         </div>
       </div>
     </StyledWrapper>
@@ -29,6 +29,10 @@ const ProfileCard: React.FC<Props> = () => {
 export default ProfileCard
 
 const StyledWrapper = styled.div`
+  > .bio {
+    font-size: 0.9rem;
+    text-align: center;
+  }
   > .title {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
