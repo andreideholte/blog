@@ -5,6 +5,7 @@ import { MdExpandMore } from "react-icons/md"
 import { DEFAULT_CATEGORY } from "src/constants"
 import styled from "@emotion/styled"
 import { useCategoriesQuery } from "src/hooks/useCategoriesQuery"
+import { Emoji } from "src/components/Emoji"
 
 type Props = {}
 
@@ -26,7 +27,7 @@ const CategorySelect: React.FC<Props> = () => {
   return (
     <StyledWrapper>
       <div ref={dropdownRef} className="wrapper" onClick={handleOpen}>
-        {currentCategory} <MdExpandMore />
+        <Emoji>{currentCategory}</Emoji> <MdExpandMore />
       </div>
       {opened && (
         <div className="content">

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react"
 import PostCard from "src/routes/Feed/PostList/PostCard"
 import { DEFAULT_CATEGORY } from "src/constants"
 import usePostsQuery from "src/hooks/usePostsQuery"
+import { Emoji } from "src/components/Emoji"
 
 type Props = {
   q: string
@@ -54,7 +55,7 @@ const PostList: React.FC<Props> = ({ q }) => {
     <>
       <div className="my-2">
         {!filteredPosts.length && (
-          <p className="text-gray-500 dark:text-gray-300">Nothing! 😺</p>
+          <p className="text-gray-500 dark:text-gray-300">Nada aqui! <Emoji>🫗</Emoji></p>
         )}
         {filteredPosts.map((post) => (
           <PostCard key={post.id} data={post} />

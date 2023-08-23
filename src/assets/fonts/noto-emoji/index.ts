@@ -1,7 +1,7 @@
 import { Noto_Emoji } from 'next/font/google'
 
 export const notoEmoji = Noto_Emoji({
-  weight: ['300'],
+  weight: ['400'],
   style: ['normal'],
   subsets: ['emoji'],
 })

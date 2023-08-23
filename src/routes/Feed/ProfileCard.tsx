@@ -29,10 +29,6 @@ const ProfileCard: React.FC<Props> = () => {
 export default ProfileCard
 
 const StyledWrapper = styled.div`
-  > .bio {
-    font-size: 0.9rem;
-    text-align: center;
-  }
   > .title {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
@@ -78,6 +74,7 @@ const StyledWrapper = styled.div`
         margin-bottom: 0.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
+        text-align: center;
       }
     }
   }
