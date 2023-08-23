@@ -12,8 +12,20 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Deholte Blog`,
-      href: "https://deholte.com",
+      name: `🤠 Martin Fowler`,
+      href: "https://martinfowler.com/",
+    },
+    {
+      name: `/tw Thoughtworks`,
+      href: "https://www.thoughtworks.com/pt-br/insights/blog",
+    },
+    {
+      name: `G Gartner`,
+      href: "https://www.gartner.com.br/pt-br/tecnologia-da-informacao",
+    },
+    {
+      name: `🦝 Refactoring Guru`,
+      href: "https://refactoring.guru/pt-br/",
     },
   ],
   // blog setting (required)

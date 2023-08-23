@@ -7,11 +7,12 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
+import { Emoji } from "src/components/Emoji"
 
 const ContactCard: React.FC = () => {
   return (
     <>
-      <StyledTitle>💬 Contatos</StyledTitle>
+      <StyledTitle><Emoji>💬</Emoji> Contatos</StyledTitle>
       <StyledWrapper>
         {CONFIG.profile.github && (
           <a
