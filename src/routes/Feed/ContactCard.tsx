@@ -12,7 +12,7 @@ import { Emoji } from "src/components/Emoji"
 const ContactCard: React.FC = () => {
   return (
     <>
-      <StyledTitle><Emoji>💬</Emoji> Contatos</StyledTitle>
+      <StyledTitle><Emoji>💬</Emoji> Contacts </StyledTitle>
       <StyledWrapper>
         {CONFIG.profile.github && (
           <a
