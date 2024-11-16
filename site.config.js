@@ -2,13 +2,12 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "deholte",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Documentando experiências",
-    bio: "Olá, meu nome é Andrei e este é um blog construído para guardar alguns pensamentos e experiências que tenho vivido nessa longa jornada de desenvolvimento de aplicações.",
+    image: "/avatar.svg", // https://notion-avatar.vercel.app
+    role: "Documenting experiences",
+    bio: "Hi, my name is Andrei (aka Deholte) and this is a blog made to share some thoughts and experiences I've been through on this long journey of application development.",
     email: "andreideholte@gmail.com",
     linkedin: "andreideholte",
     github: "andreideholte",
-    instagram: "andreideholte",
   },
   projects: [
     {
@@ -35,11 +34,11 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "deholte",
-    description: "Bem vindo!",
+    description: "Welcome!",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://deholte.com",
   since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
